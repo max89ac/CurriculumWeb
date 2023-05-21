@@ -118,8 +118,6 @@ function getAge(dateString) {
     }
     return age;
 }
-console.log('age: ' + getAge("1989/12/31"));
-
 document.getElementById("fecha").innerHTML = "<strong>Edad:</strong> " + getAge("1989/12/31") + " años";
 
 // Usar la función Math() para calcular un año en la sección "Experiencia laboral"

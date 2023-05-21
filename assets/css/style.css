@@ -105,7 +105,8 @@ a {
 .encabezado {
     padding-top: 20%;
     padding-bottom: 15%;
-    background: url(/assets/img/background.jpg);
+    background: url(../img/background.jpg);
+    background-color: #a0a0a0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
