@@ -1,4 +1,3 @@
-
 # Currículum Web
 
 Proyecto final de currículum web realizado para el curso de Quality Assurance de Specialisterne y Fundación Esplai en Marzo de 2023.
@@ -45,7 +44,9 @@ Este proyecto de página web incluye las siguientes funcionalidades:
 
 ## Capturas de Pantalla
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Captura 1](https://raw.githubusercontent.com/max89ac/CurriculumWeb/main/assets/img/sshot1.jpg)
+
+![Captura 2](https://raw.githubusercontent.com/max89ac/CurriculumWeb/main/assets/img/sshot2.jpg)
 
 
 ## Contacto
