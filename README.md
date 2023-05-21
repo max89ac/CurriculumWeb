@@ -50,5 +50,5 @@ Este proyecto de página web incluye las siguientes funcionalidades:
 
 ## Contacto
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@max89ac](https://www.github.com/max89ac/)
 
