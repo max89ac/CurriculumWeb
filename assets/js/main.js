@@ -79,7 +79,7 @@ document.querySelector('#toggle').addEventListener('click', classToggle);
 
 const formacionacademica = document.querySelector('.json-fa');
 
-fetch('./assets/json/formacionacademica.json')
+fetch("../assets/json/formacionacademica.json")
     .then(res => res.json())
     .then(data => {
         data.forEach(post => {
@@ -94,7 +94,7 @@ fetch('./assets/json/formacionacademica.json')
 
 const otroscursos = document.querySelector('.json-oc');
 
-fetch('./assets/json/otroscursos.json')
+fetch("../assets/json/otroscursos.json")
     .then(res => res.json())
     .then(data => {
         data.forEach(post => {

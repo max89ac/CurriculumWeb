@@ -88,11 +88,11 @@ a {
     cursor: pointer;
 }
 
-.fa-sun:hover{
+.fa-sun:hover {
     color: #b0b08b;
 }
 
-.fa-moon:hover{
+.fa-moon:hover {
     color: #8ba0b5;
 }
 
@@ -103,14 +103,20 @@ a {
 /* Jumbotron */
 
 .encabezado {
-    padding-top: 20%;
-    padding-bottom: 15%;
     background: url("../img/background.jpg");
     background-color: #a0a0a0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     color: white;
+    padding-left: 10%;
+}
+
+@media only screen and (min-width: 600px) {
+    .encabezado {
+        padding-left: 10%;
+    }
 }
 
 /* Sobre mi */
@@ -118,6 +124,13 @@ a {
 #sobremi-section {
     padding-top: 8%;
     padding-bottom: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    #sobremi-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
 }
 
 .sobremi-foto {
@@ -137,6 +150,13 @@ a {
 #experiencialaboral-section {
     padding-top: 8%;
     padding-bottom: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    #experiencialaboral-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
 }
 
 .explaboral-foto {
@@ -162,6 +182,13 @@ a {
     padding-bottom: 8%;
 }
 
+@media only screen and (max-width: 600px) {
+    #formacionacademica-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+}
+
 .formacademica-foto {
     max-width: 70%;
     border-radius: 50%;
@@ -182,6 +209,13 @@ a {
     padding-bottom: 8%;
 }
 
+@media only screen and (max-width: 600px) {
+    #otroscursos-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+}
+
 .otroscursos-foto {
     max-width: 100%;
     border-radius: 5%;
@@ -199,6 +233,13 @@ a {
 #habilidades-section {
     padding-top: 8%;
     padding-bottom: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    #habilidades-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
 }
 
 .porcentaje {
@@ -221,11 +262,25 @@ a {
     padding-bottom: 8%;
 }
 
+@media only screen and (max-width: 600px) {
+    #portfolio-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+}
+
 /* Contacto */
 
 #contacto-section {
     padding-top: 8%;
     padding-bottom: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    #contacto-section {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
 }
 
 #contacto-section p {
